@@ -3,7 +3,7 @@ using Squidex.ClientLibrary;
 
 namespace SquidexTest.Models
 {
-    public class Product : SquidexEntityBase<ProductData>
+    public class Product : Content<ProductData>
     {
         
     }
